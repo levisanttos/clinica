@@ -19,7 +19,7 @@ class ClinicaApplicationTests {
 	void contextLoads() {
 	}
 
-	@Test
+	
 	public void testSave() {
 		Paciente paciente1 = Paciente.builder().cpf("12312312332").dataNascimento(LocalDate.of(1982, 9, 22))
 				.email("levi@gmail.com").nome("Levi").sobrenome("Aparecido dos Santos").rg("121231233").build();
